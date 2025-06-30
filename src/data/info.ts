@@ -110,9 +110,9 @@ For those who are new to IT, curious about studying abroad, or just want to join
   ],
 
   contact: {
-    email: "bart@thesimpsons.com",
-    linkedin: "https://www.linkedin.com/in/bartsimpsonfake",
-    github: "https://www.github.com/gio-del",
-    twitter: "https://www.twitter.com/bartsimpsonfake",
+    email: "sato.honeyowrks@gmail.com",
+    linkedin: "",
+    github: "",
+    twitter: "",
   },
 };
