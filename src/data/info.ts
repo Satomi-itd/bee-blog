@@ -1,53 +1,79 @@
 export const info = {
-  name: "Bart Simpson",
+
+  name: "Satomi.H",
   brief_description:
-    "I'm a mischievous full stack developer with a knack for troublemaking.",
+    "Just a network ninja in training — still dropping packets but learning fast.",
   role: "Full Stack Developer",
-  picture: "/pic.png",
+  picture: "/bee6.PNG",
   picture_alt: "Bart Simpson",
-  location: "Springfield, USA",
+  location: "Vancouver，BC",
   cv: "/resume.pdf",
 
   about: {
-    description: `I'm a full stack developer with a passion for causing a little chaos in web development.
-    I have a solid foundation in computer science, although I prefer skateboarding over studying.
-    I excel in building web applications using React, Node.js, and MongoDB.
-    I'm known for my sharp wit and quick thinking, traits that serve me well in coding and pranks alike.
-    Looking for a challenge? Let's create something memorable together.`,
+    description: `Hi, I’m Satomi.
+I used to study English literature, but now I’m a network engineer-in-training, living in Canada.
+I dropped out of university in Japan and jumped into the IT world here in Canada. After learning the basics of web development like HTML, CSS, and JavaScript, I’m now focusing on network engineering and working toward my CCNA certification. And yes, I try not to break any routers in the process (lol).
+
+My motto? “I’m too ordinary to waste time looking down!” (Also, I’m a huge anime fan.)
+The world of networking is still tough, and I’ve definitely cried over bugs in web development or had some rough patches in my Canadian life, but hey, I just keep pushing forward — it’ll work out somehow.
+
+This blog is where I share my real-life journey from a liberal arts background to tackling the IT industry abroad, how networks are built, and sometimes a few personal stories along the way.
+
+If any of that catches your attention, feel free to check it out.
+For those who are new to IT, curious about studying abroad, or just want to join me on this wild ride, let’s enjoy the journey together! 🌍💻 `,
     education: [
-      {
-        title: "Self-Taught Developer Extraordinaire",
-        date: "2000 - Present",
-        location: "Springfield Elementary School of Hard Knocks",
-        gpa: "4.0 (A+ in Pranks)",
-        thesis: "The Art of Subverting Expectations: A Practical Guide",
-      },
+      
     ],
     experience: [
       {
-        title: "Frontend Developer",
-        date: "2015 - Present",
-        location: "Krusty Burger Web Dev",
+        title: "Violin Lover",
+        date: "2002 - Present",
+        location: "Currently in Canada (without my violin 😢)",
         description:
-          "Crafted interactive web experiences using React and Redux. Often multitasked between coding and avoiding Principal Skinner.",
+          "Started playing violin at the age of 6, inspired by my dad.  ",
       },
       {
-        title: "Backend Bandit",
-        date: "2013 - 2015",
-        location: "Comic Book Guy's Software Emporium",
+        title: "English Literature Major",
+        date: "2021 – Present",
+        location: "Meiji Gakuin University (Japan)",
         description:
-          "Masterminded backend solutions using Node.js and MongoDB. Surprisingly good at debugging, considering my history of causing bugs.",
+          "Picked English literature when I wasn’t sure about my future. Shakespeare was tough, but fun in a weird way."
       },
       {
-        title: "Junior Hacker",
-        date: "2010 - 2013",
-        location: "Springfield Elementary Cyber Club",
+        title: "Private Tutoring School",
+        date: "2021 – 2022",
+        location: "Tokyo",
         description:
-          "Pioneered early web exploits, leading the club in daring coding escapades. Was disciplined for hacking the school's grading system.",
+          "Teaching English and math to junior high students. Got into anime just to keep up with their interests!"
       },
+      {
+        title: "Shrine Maiden (Miko)",
+        date: "2022 – 2024",
+        location: "Yoyogi, Tokyo",
+        description:
+          "Helped at a shrine with events and sold charms. A cool way to connect with Japanese traditions."
+      },
+      {
+        title: "Hotel Front Desk",
+        date: "2023 – 2024",
+        location: "Yokohama",
+        description:
+          "Wanted to talk with international guests—learned a lot about hospitality and smiling through anything."
+      },
+      {
+        title: "IT Student in Canada",
+        date: "2024 – Present",
+        location: "ITD Canada (Vancouver)",
+        description:"After graduating from a one-year Web Development program in March, I became fascinated by computer networking. Now I'm self-studying for the CCNA certification to deepen my knowledge."
+
+      },
+      
     ],
 
-    skills: ["JavaScript", "React", "Node.js", "MongoDB", "Prank Mastery"], // not used yet
+    skills: ["🧠CCNA (Cisco Certified Network Associate)", "💻 Studying web frontend development including HTML5, CSS3, and JavaScript", "🌐 Built a responsive blog using Astro", "🛠️ Gained foundational knowledge in PHP, Ruby, Python, and Perl", "📦 Experience with CMS platforms like WordPress, Drupal, and Joomla","🔧 Practicing network setup and troubleshooting using Cisco Packet Tracer", 
+      "🚀 Fast learner with a proactive attitude, both independently and in teams"],
+
+
   },
 
   projects: [

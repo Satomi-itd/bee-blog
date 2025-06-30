@@ -1,0 +1,33 @@
+---
+const { about } = Astro.props;
+---
+
+<section class="about-section">
+  <h2 class="text-4xl font-bold">About Me</h2>
+  <p class="text-lg mt-4">{about.description}</p>
+
+  <div class="education">
+    <h3 class="text-2xl mt-6">Education</h3>
+    <ul class="list-disc pl-5">
+      {about.education.map((edu) => (
+        <li key={edu.title}>
+          <strong>{edu.title}</strong> ({edu.date}) - {edu.location}<br />
+          <span class="italic">{edu.gpa}</span> <br />
+          <span class="font-light">Thesis: {edu.thesis}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <div class="experience">
+    <h3 class="text-2xl mt-6">Experience</h3>
+    <ul class="list-disc pl-5">
+      {about.experience.map((exp) => (
+        <li key={exp.title}>
+          <strong>{exp.title}</strong> ({exp.date}) - {exp.location}<br />
+          <span class="italic">{exp.description}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

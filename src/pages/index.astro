@@ -1,3 +1,5 @@
+
+
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { info } from "../data/info";
@@ -9,6 +11,8 @@ import Blog from "../components/post_section/Blog.astro";
 import { Image } from "astro:assets";
 
 const allPosts = await Astro.glob("./posts/*.md");
+
+
 ---
 
 <BaseLayout title="Home">
@@ -28,7 +32,7 @@ const allPosts = await Astro.glob("./posts/*.md");
 
       <div class="flex flex-col lg:mx-8 leading-relaxed space-y-4">
         <h1 class="text-3xl lg:text-5xl font-bold font-serif">
-          Hi, I'm <span class="bg-clip-text animate-pulse typewriter">
+          Hi, My name is <span class="bg-clip-text animate-pulse typewriter">
             {info.name}</span
           >
         </h1>
@@ -41,18 +45,25 @@ const allPosts = await Astro.glob("./posts/*.md");
       </div>
     </div>
   </section>
+
   <section class="lg:m-0
         my-20
         mx-2" id="about">
     <About about={info.about} client:visible />
   </section>
 
-  <section
+
+
+ 
+ <section
     class="lg:h-screen lg:m-0 my-20 mx-2 flex-col flex justify-center w-full"
     id="projects"
   >
     <ProjectCarousel projects={info.projects} client:only />
   </section>
+
+
+
 
   <section
     class="lg:h-screen lg:m-0 my-20 flex-col flex justify-center w-full"
@@ -70,6 +81,8 @@ const allPosts = await Astro.glob("./posts/*.md");
     </div>
   </section>
 </BaseLayout>
+
+
 
 <style>
   .typewriter {
@@ -99,6 +112,8 @@ const allPosts = await Astro.glob("./posts/*.md");
     overflow: hidden;
     border-radius: 100%;
   }
+
+  
 
   .profile-pic::before {
     position: absolute;
