@@ -2,7 +2,7 @@ export const info = {
 
   name: "Satomi.H",
   brief_description:
-    "Just a network ninja in training — still dropping packets but learning fast.",
+    "Just a network engineer in training — still dropping packets but learning fast.",
   role: "Full Stack Developer",
   picture: "/bee6.PNG",
   picture_alt: "Bart Simpson",
@@ -13,9 +13,6 @@ export const info = {
     description: `Hi, I’m Satomi.
 I used to study English literature, but now I’m a network engineer-in-training, living in Canada.
 I dropped out of university in Japan and jumped into the IT world here in Canada. After learning the basics of web development like HTML, CSS, and JavaScript, I’m now focusing on network engineering and working toward my CCNA certification. And yes, I try not to break any routers in the process (lol).
-
-My motto? “I’m too ordinary to waste time looking down!” (Also, I’m a huge anime fan.)
-The world of networking is still tough, and I’ve definitely cried over bugs in web development or had some rough patches in my Canadian life, but hey, I just keep pushing forward — it’ll work out somehow.
 
 This blog is where I share my real-life journey from a liberal arts background to tackling the IT industry abroad, how networks are built, and sometimes a few personal stories along the way.
 
@@ -28,7 +25,7 @@ For those who are new to IT, curious about studying abroad, or just want to join
       {
         title: "Violin Lover",
         date: "2002 - Present",
-        location: "Currently in Canada (without my violin 😢)",
+        location: "Currently in Canada (without my violin..)",
         description:
           "Started playing violin at the age of 6, inspired by my dad.  ",
       },
