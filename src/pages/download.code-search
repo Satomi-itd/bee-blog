@@ -1,0 +1,22 @@
+# Query: download
+# ContextLines: 1
+
+6 results - 2 files
+
+README.md:
+  39  
+  40: Note: this mini-guide assumes you have `npm` installed on your machine, if you don't, you can download it following the instructions [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+  41  
+ 
+src\components\navbar\Nav.jsx:
+  35  
+  36:          {/* Button for CV download */}
+  37            /* <a
+  38              href={info.cv}
+  39:             download
+  40              className="px-4 py-2 border-2 rounded text-secondary dark:text-dk-secondary border-secondary dark:border-dk-secondary hover:bg-secondary dark:hover:bg-dk-secondary hover:text-primary dark:hover:text-primary cursor-pointer"
+  41            >
+  42:             <i className="fas fa-download mr-2"></i>
+  43             <span className="hidden lg:inline-block font-medium">
+  44:               Download CV
+  45              </span>/*
